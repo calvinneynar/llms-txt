@@ -1,0 +1,46 @@
+# Neynar
+
+> Neynar is the easiest infrastructure platform for building on Farcaster, a decentralized social protocol. It provides APIs, SDKs, tools for creating Farcaster applications including social data integration, mini apps (Frames), AI agents, onchain data analysis, and client development.
+
+Neynar abstracts away the complexity of interacting with Farcaster hubs and provides:
+
+- **Social Data APIs**: Access Farcaster user profiles, social graphs, feeds, and follower/following relationships
+- **Frames (Mini Apps)**: Build, validate, and host Farcaster mini apps with real-time analytics and push notifications  
+- **AI Agents**: Deploy contextual AI agents with automated real-time interactions on Farcaster
+- **Onchain Data**: Get token balances, relevant holders, and personalized blockchain data from FIDs or wallet addresses
+- **Data Analytics**: Access real-time Farcaster data streams, indexed databases, and analytics tools
+- **Hub Services**: Reliable hub endpoints, webhooks, and indexer-as-a-service for streaming Farcaster data
+
+Key Farcaster concepts: Users have permanent FIDs (numerical identifiers), create "casts" (similar to tweets), and build social graphs through following relationships.
+
+## API Documentation
+
+- [Quickstart Guide](https://docs.neynar.com/reference/quickstart): Complete getting started tutorial with SDK setup and basic API usage examples
+- [API Reference](https://docs.neynar.com/reference): Full REST API documentation with all endpoints for users, casts, feeds, reactions, and more
+- [Node.js SDK](https://github.com/neynarxyz/nodejs-sdk): Official TypeScript/JavaScript SDK for easy API integration
+- [Rate Limits](https://docs.neynar.com/reference/what-are-the-rate-limits-on-neynar-apis): API rate limiting and compute unit documentation
+
+## Development Guides
+
+- [Social Data Integration](https://docs.neynar.com/docs/supercharge-your-sign-in-with-ethereum-onboarding-with-farcaster): Guide for integrating Farcaster profiles and social graphs into applications
+- [Build Farcaster Mini Apps in 60s](https://docs.neynar.com/docs/create-farcaster-miniapp-in-60s): Quick tutorial for creating and deploying Farcaster Frames
+- [Create Farcaster Bot](https://docs.neynar.com/docs/create-farcaster-bot-ui): Tutorial for building AI agents and bots on Farcaster
+- [Fetch Relevant Token Holders](https://docs.neynar.com/docs/fetch-relevant-holders-for-coin): Guide for accessing onchain data and token holder information
+- [Choose Right Data Product](https://docs.neynar.com/docs/how-to-choose-the-right-data-product-for-you): Guide for selecting appropriate Neynar data services
+
+## Tools & Resources
+
+- [Farcaster Explorer](https://explorer.neynar.com/): Search, monitor, and debug Farcaster network data with multi-hub logs
+- [Developer Portal](https://dev.neynar.com/): Dashboard for API key management and usage monitoring
+- [Farcaster Channel](https://warpcast.com/~/channel/neynar): Community support and updates on Farcaster
+- [Telegram Support](https://t.me/rishdoteth): Direct developer support channel
+- [Twitter/X](https://x.com/neynarxyz): Official Twitter account for announcements and updates
+
+## Optional
+
+- [Farcaster Protocol Overview](https://farcaster.xyz/): Background information about the underlying decentralized social protocol
+- [Warpcast](https://warpcast.com/): Reference Farcaster client implementation for understanding user experience patterns
+- [Neynar Blog](https://neynar.com/blog): Company updates, feature announcements, and technical deep dives
+- [Neynar Status Page](https://status.neynar.com/): Real-time service status and incident reports
+- [Fortune: $11M Funding Round Coverage](https://fortune.com/crypto/2024/05/30/haun-ventures-coinbase-and-a16z-invest-11-million-in-neynar-a-toolbox-for-web3-social-networks/): Media coverage of Neynar's Series A funding led by Haun Ventures, Coinbase, and a16z
+- [The Block: Farcaster Mini Apps Launch](https://www.theblock.co/post/318033/new-farcaster-mini-app-feature-launches-on-web3-social-protocol-client-warpcast): News coverage of Farcaster Frames feature launch on Warpcast
