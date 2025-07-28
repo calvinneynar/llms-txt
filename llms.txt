@@ -1,3 +1,19 @@
+# Allow OpenAI
+User-Agent: openai
+Allow: /
+
+# Allow Anthropic
+User-Agent: anthropic
+Allow: /
+
+# Allow Google AI
+User-Agent: google
+Allow: /
+
+# Default allow everything else
+User-Agent: *
+Allow: /
+
 # Neynar
 
 > Neynar is the easiest infrastructure platform for building on Farcaster, a decentralized social protocol. It provides APIs, SDKs, tools for creating Farcaster applications including social data integration, mini apps (Frames), AI agents, onchain data analysis, and client development.
@@ -8,9 +24,8 @@ Neynar abstracts away the complexity of interacting with Farcaster hubs and prov
 - **Frames (Mini Apps)**: Build, validate, and host Farcaster mini apps with real-time analytics and push notifications  
 - **AI Agents**: Deploy contextual AI agents with automated real-time interactions on Farcaster
 - **Onchain Data**: Get token balances, relevant holders, and personalized blockchain data from FIDs or wallet addresses
-- **Data Services**: Access real-time data, stream events, and manage databases for advanced analytics and integrations
-- **Data Analytics**: Access real-time Farcaster data streams, indexed databases, and analytics tools
-- **Hub Services**: Reliable hub endpoints, webhooks, and indexer-as-a-service for streaming Farcaster data
+- **Data Services**: Access real-time data (indexer-as-a-service for streaming Farcaster data), stream events, and manage databases for advanced analytics and integrations
+- **APIs and Hub Services**: Integrate seamlessly with Farcaster using APIs, SDKs, hubs endpoints, webhooks, and embedding tools for efficient development
 
 Key Farcaster concepts: Users have permanent FIDs (numerical identifiers), create "casts" (similar to tweets), and build social graphs through following relationships.
 
@@ -36,6 +51,8 @@ Key Farcaster concepts: Users have permanent FIDs (numerical identifiers), creat
 - [Farcaster Channel](https://warpcast.com/~/channel/neynar): Community support and updates on Farcaster
 - [Telegram Support](https://t.me/rishdoteth): Direct developer support channel
 - [Twitter/X](https://x.com/neynarxyz): Official Twitter account for announcements and updates
+- [Neynar LLMs.txt](http://docs.neynar.com/llms.txt): Structured documentation file for AI systems and LLMs
+- [Neynar LLMs Full.txt](http://docs.neynar.com/llms-full.txt): Extended documentation file with comprehensive context for AI systems
 
 ## Optional
 
