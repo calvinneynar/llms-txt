@@ -8,6 +8,7 @@ Neynar abstracts away the complexity of interacting with Farcaster hubs and prov
 - **Frames (Mini Apps)**: Build, validate, and host Farcaster mini apps with real-time analytics and push notifications  
 - **AI Agents**: Deploy contextual AI agents with automated real-time interactions on Farcaster
 - **Onchain Data**: Get token balances, relevant holders, and personalized blockchain data from FIDs or wallet addresses
+- **Data Services**: Access real-time data, stream events, and manage databases for advanced analytics and integrations
 - **Data Analytics**: Access real-time Farcaster data streams, indexed databases, and analytics tools
 - **Hub Services**: Reliable hub endpoints, webhooks, and indexer-as-a-service for streaming Farcaster data
 
@@ -39,8 +40,9 @@ Key Farcaster concepts: Users have permanent FIDs (numerical identifiers), creat
 ## Optional
 
 - [Farcaster Protocol Overview](https://farcaster.xyz/): Background information about the underlying decentralized social protocol
-- [Warpcast](https://warpcast.com/): Reference Farcaster client implementation for understanding user experience patterns
+- [Merkle Farcaster Client](https://warpcast.com/): Previously known as Warpcast. Reference Farcaster client implementation for understanding user experience patterns
 - [Neynar Blog](https://neynar.com/blog): Company updates, feature announcements, and technical deep dives
 - [Neynar Status Page](https://status.neynar.com/): Real-time service status and incident reports
+- [Series A Fundraise Announcement](https://neynar.com/blog/series-a-fundraise-announcement): Official announcement of Neynar's $14M Series A funding round and team expansion
 - [Fortune: $11M Funding Round Coverage](https://fortune.com/crypto/2024/05/30/haun-ventures-coinbase-and-a16z-invest-11-million-in-neynar-a-toolbox-for-web3-social-networks/): Media coverage of Neynar's Series A funding led by Haun Ventures, Coinbase, and a16z
 - [The Block: Farcaster Mini Apps Launch](https://www.theblock.co/post/318033/new-farcaster-mini-app-feature-launches-on-web3-social-protocol-client-warpcast): News coverage of Farcaster Frames feature launch on Warpcast
